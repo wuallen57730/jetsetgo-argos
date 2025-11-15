@@ -1,0 +1,10 @@
+
+.env
+
+# 忽略 Python 快取檔案
+__pycache__/
+*.pyc
+
+# 忽略 SQLite 數據庫
+*.db
+*.sqlite3

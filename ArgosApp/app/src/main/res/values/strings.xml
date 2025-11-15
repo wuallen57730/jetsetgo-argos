@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">ArgosApp</string>
+
+    <!-- Scan screen -->
+    <string name="scan_header_logo_content_description">Argos logo</string>
+    <string name="scan_header_title">Cathay Cargo Scan</string>
+    <string name="scan_header_profile">User settings</string>
+    <string name="scan_default_user_name">John Doe</string>
+    <string name="scan_welcome_title">Welcome, %1$s</string>
+    <string name="scan_welcome_message">Ready to inspect cargo damage</string>
+    <string name="scan_capture_button">Capture &amp; Analyze</string>
+    <string name="scan_take_photo_hint">Tap to capture and inspect damage</string>
+    <string name="scan_status_idle">Tap the button to start scanning</string>
+    <string name="scan_status_processing">Scanning in progress, please wait…</string>
+    <string name="scan_status_error_prefix">Error: %1$s</string>
+    <string name="scan_status_success">Cloud report completed</string>
+    <string name="scan_error_read_photo">Unable to read photo</string>
+    <string name="scan_permission_required">Camera permission is required for scanning</string>
+    <string name="scan_status_uploading_with_detection">Local AI detected %1$s (%2$d%%). Uploading to dashboard...</string>
+    <string name="scan_status_no_detection">Local AI did not detect any objects. Uploading photo for verification...</string>
+    <string name="scan_detection_unknown_label">unknown</string>
+    <string name="feature_coming_soon">Coming soon</string>
+    <string name="scan_simulate_green">Simulate: No Damage (GREEN)</string>
+    <string name="scan_simulate_red">Simulate: Severe Damage (RED)</string>
+
+    <!-- Navigation -->
+    <string name="nav_item_scan">Scan</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_settings">Settings</string>
+
+    <!-- Scan result -->
+    <string name="scan_result_title">Scan Result</string>
+    <string name="scan_result_back">Back</string>
+    <string name="scan_result_damage_header">Detection details</string>
+    <string name="scan_result_no_damage">No additional damage detected.</string>
+    <string name="scan_result_suggestion">Suggestion: %1$s</string>
+    <string name="scan_result_findings_prefix">YOLO summary: %1$s</string>
+    <string name="scan_result_level_format">%1$s · %2$s</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_search_prefix">Search</string>
+    <string name="history_search_hint">Search by ULD ID or date</string>
+    <string name="history_item_details">View details</string>
+    <string name="history_empty_title">No scan records yet</string>
+    <string name="history_empty_description">Tap the SCAN button below to get started.</string>
+    <string name="history_item_status_format">%1$s · %2$s</string>
+
+    <!-- Login -->
+    <string name="login_logo_content_description">Argos logo</string>
+    <string name="login_title">Cargo Management System</string>
+    <string name="login_employee_label">Employee ID</string>
+    <string name="login_employee_placeholder">Enter your employee ID</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_placeholder">Enter your password</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_register_prompt">Don\u2019t have an account?</string>
+    <string name="login_register_link">Register new account</string>
+    <string name="login_error_missing_fields">Please fill in both fields.</string>
+    <string name="login_error_invalid_credentials">Invalid employee ID or password.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_profile">Profile</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_section_app">App settings</string>
+    <string name="settings_section_about">About us</string>
+    <string name="settings_section_logout">Sign out</string>
+    <string name="settings_about_description">Argos is a participant in the 8th Cathay Hackathon</string>
+    <string name="settings_dialog_about_title">About Argos</string>
+</resources>
